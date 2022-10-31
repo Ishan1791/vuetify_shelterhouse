@@ -1,7 +1,5 @@
 <template>
   <div class="about text-center">
-    <h1>This is an about page</h1>
-
     <v-carousel cycle hide-delimiters :show-arrows="false">
         <v-carousel-item
             v-for="(card,i) in cards"
